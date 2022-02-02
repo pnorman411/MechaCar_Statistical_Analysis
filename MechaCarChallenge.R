@@ -17,3 +17,13 @@ total_summary <- coil_table %>% summarize(Mean=mean(PSI), Median=median(PSI), Va
 
 #create summary table for mean, median, variance, and standard deviation by grouping by lots
 lot_summary <- coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = 'keep')
+
+#t-test to determine if PSI across all lots is statistically different from population mean of 1500
+t.test(coil_table$PSI, mu=1500)
+
+#t-tests to determine if PSI for each lot is statistically different from population mean of 1500
+t.test(subset(coil_table$PSI, coil_table$Manufacturing_Lot=='Lot1'), mu=1500)
+t.test(subset(coil_table$PSI, coil_table$Manufacturing_Lot=='Lot2'), mu=1500)
+t.test(subset(coil_table$PSI, coil_table$Manufacturing_Lot=='Lot3'), mu=1500)
+
+
