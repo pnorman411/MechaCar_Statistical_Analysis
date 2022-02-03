@@ -6,7 +6,7 @@
 
 The preceding output indicates that vehicle length and ground clearance provide a non-random amount of variance to the mpg values since their p-values were 2.60e-12 and 5.21e-08, which were significantly smaller than the assumed significance level.
 
-The slope of the linear model is not considered zero since the p-value is 5.35e-11, therefore rejecting the null hypothesis.  The relationship between the variables and mpg is not random chance.
+The slope of the linear model is not considered zero since the p-value is 5.35e-11, therefore rejecting the null hypothesis.  The relationship between the variables and mpg is not random chance and are statistically different.
 
 The linear model predicts mpg of MechaCar prototypes effectively since the r-squared value is 0.7149 which indicates a strong correlation.
 
