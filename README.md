@@ -18,7 +18,7 @@ The linear model predicts mpg of MechaCar prototypes effectively since the r-squ
 ### Lot Summary
 ![lot_summary](https://user-images.githubusercontent.com/90982811/152282603-2d1341ea-d361-4d55-b959-dea50ffe9b31.jpg)
 
-The manufacturing data may meet design specifications for the variance in suspension coils as a whole, but it does not meet specifications for each individual lot.  Lot3 is significantly above the 100 pounds per square inch requirement at 170.2861224.
+The manufacturing data meets design specifications for the variance in suspension coils as a whole, but it does not meet specifications for each individual lot.  Lot3 is significantly above the 100 pounds per square inch requirement at 170.2861224.
 
 ## T-Tests on Suspension Coils
 
