@@ -43,6 +43,7 @@ Lot1 and Lot2 are not statistically different from the population mean since the
 A proposed statistical study is to compare the safety ratings of MechaCar versus the competitors.
 
 Null Hypothesis: MechaCar and competitor's safety ratings are not statistically different
+
 Alternative Hypothesis: MechaCar and competitor's safety ratings are statistically different
 
 The two-sample t-test would be used to compare the population means between MechaCar and individual competitors.  If it is determined that MechaCar's safety ratings are significantly different than multiple competitors, a t-test for the population mean of all or a subgroup of the competitors could be performed.  Safety rating data for each manufacturer would be needed.  Manufacturer testing data and National Transportation Statistics (NTS) could be used.  
