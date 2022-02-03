@@ -21,7 +21,13 @@ The manufacturing data may meet design specifications for the variance in suspen
 
 The PSI across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch since the overall p-value is 0.06028, which is larger than the significance level of 0.05.
 
-Lot1 and Lot2 are not statistically different from the population mean since the p-values for the individual lots are larger than the significance level, but Lot3's PSI is statistically different from the population mean since it's p-value is smaller than the significance level with the calculation of 0.04168.
+Lot1 and Lot2 are not statistically different from the population mean since the p-values for the individual lots are larger than the significance level.  Lot3's PSI is statistically different from the population mean of 1,500 pounds per square inch since it's p-value is smaller than the significance level with the calculation of 0.04168.
 
 ## Study Design: MechaCar vs. Competition
 
+A proposed statistical study is to compare the safety ratings of MechaCar versus the competitors.
+
+Null Hypothesis: MechaCar and competitor's safety ratings are not statistically different
+Alternative Hypothesis: MechaCar and competitor's safety ratings are statistically different
+
+The two-sample t-test would be used to compare the population means between MechaCar and individual competitors.  If it is determined that MechaCar's safety ratings are significantly different than multiple competitors, a t-test for the population mean of all or a subgroup of the competitors could be performed.  Safety rating data for each manufacturer would be needed.  Manufacturer testing data and National Transportation Statistics (NTS) could be used.  
